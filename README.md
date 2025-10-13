@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# PopX React Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple ReactJS application built for the PopX UI assignment.  
+It follows the provided Adobe XD design and replicates a mobile app interface in the center of the screen.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+* About the Project
 
-### `npm start`
+The app contains a few key screens:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Welcome Page** – Introduction screen with buttons to either create a new account or log in.
+- **Create Account Page** – A form for new users to enter details like name, email, password, and company information.
+- **Login Page** – A form for existing users to sign in using email and password.
+- **Account Settings Page** – Displays the user’s name and email that were entered in the previous steps.  
+  A random image is shown beside the profile info, similar to an avatar placeholder.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+All navigation between pages is handled using **React Router**, and user details are maintained in a **React Context** so they can be shared easily between screens.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Features
 
-### `npm run build`
+- Pixel‑perfect layout based on the given design  
+- Centered mobile‑view frame (350 × 700 px)  
+- Functional navigation between pages  
+- Dynamic user name and email display  
+- Clean and minimal React component structure  
+- Random image used for profile avatar  
+- Fully responsive inside the mobile frame  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ *Tech Stack
 
-### `npm run eject`
+- **React JS (Create React App)**
+- **React Router DOM**
+- **Context API for global state**
+- **CSS for styling**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* How to Run Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+# Clone the repository
+git clone https://github.com/<your-username>/popx-app.git
+cd popx-app
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Install dependencies
+npm install
 
-## Learn More
+# Start the app
+npm start
+The app will run on http://localhost:3000
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🌐 Deployment
+The project is hosted on Vercel.
+You can view the live version here:
 
-### Code Splitting
+👉 Live Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ Author
+Created with attention to detail and care for clean code.
+This project was built as part of the PopX Frontend Assignment.
+EOF

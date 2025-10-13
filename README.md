@@ -44,7 +44,7 @@ All navigation between pages is handled using **React Router**, and user details
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/popx-app.git
+git clone https://github.com/pritamdhatrak/-popx-app.git
 cd popx-app
 
 # Install dependencies
@@ -59,9 +59,8 @@ The app will run on http://localhost:3000
 The project is hosted on Vercel.
 You can view the live version here:
 
-👉 Live Demo
-
+Live Demo
+vercel link:-https://popx-app-ebon.vercel.app/
  Author
 Created with attention to detail and care for clean code.
 This project was built as part of the PopX Frontend Assignment.
-EOF

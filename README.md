@@ -62,5 +62,5 @@ You can view the live version here:
 Live Demo
 vercel link:-https://popx-app-ebon.vercel.app/
  Author
-Created with attention to detail and care for clean code.
+
 This project was built as part of the PopX Frontend Assignment.
